@@ -1,0 +1,13 @@
+{{ define "base" }}
+<html>
+<head>
+    {{ template "title" . }}
+</head>
+<body>
+    {{ template "content" . }}
+</body>
+</html>
+{{ end }}
+
+{{ define "title" }}<title>default title</title>{{ end }}
+{{ define "content" }}<h1>default body</h1>{{ end }}
